@@ -1,0 +1,211 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0px;
+}
+header {
+  color: white;
+  background: rgb(167, 142, 119);
+  background: radial-gradient(
+    circle,
+    rgba(167, 142, 119, 1) 0%,
+    rgba(208, 179, 150, 1) 100%
+  );
+  margin: 0;
+  padding: 16px 20%;
+}
+a {
+  text-decoration: none;
+  margin: 0 8px;
+  color: grey;
+}
+header a {
+  color: white;
+  font-size: 12px;
+}
+button {
+  border: 1px solid white;
+  border-radius: 14px;
+  color: white;
+  background: none;
+  font-size: 12px;
+  padding: 4px 10px;
+  cursor: pointer;
+}
+button:hover {
+  transform: scale(1.05);
+}
+button:active {
+  transform: scale(0.95);
+}
+header p {
+  margin: 0;
+  display: inline;
+}
+header > span {
+  float: right;
+}
+h1 {
+  margin: 0;
+}
+#block-1 {
+  padding: 10%;
+  color: white;
+  background: rgb(167, 142, 119);
+  background: radial-gradient(
+    circle,
+    rgba(167, 142, 119, 1) 0%,
+    rgba(208, 179, 150, 1) 100%
+  );
+}
+div {
+  text-align: center;
+}
+.page-block {
+  height: 550px;
+  padding: 10%;
+}
+img {
+  margin: 7%;
+}
+svg {
+  min-height: 64px;
+  max-height: 64px;
+  min-width: 64px;
+  max-width: 64px;
+  fill: #d0d0d0;
+  margin: 48px;
+}
+.line {
+  height: 2px;
+  width: 100%;
+  background-color: #d0d0d0;
+}
+#svg-line-group {
+  display: flex;
+  align-items: center;
+}
+#block-2 {
+  background: url(https://t4.ftcdn.net/jpg/02/98/05/93/360_F_298059305_zctGpQ4s6SGJgHAihxAJ8dZDbnsSXI7N.jpg);
+  background-size: cover;
+}
+#block-3 {
+  background: radial-gradient(50% 50% at 50% 50%, #83a973 0%, #6f915f 100%);
+  color: white;
+}
+#block-3 li p {
+  margin: 6px 0;
+}
+#block-3 ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+#block-3 li {
+  margin: 0 32px;
+}
+.number {
+  font-size: 32px;
+}
+.number::before {
+  content: "";
+  display: block;
+  border-top: 1px solid white;
+  width: 32px;
+  margin: auto;
+  margin-bottom: 12px;
+}
+#block-4 {
+  background: url(./background.png);
+  background-size: cover;
+  color: #8d6e2b;
+}
+#block-4 p {
+  width: 500px;
+  margin: 16px auto;
+}
+#block-5 {
+  background: url(./MacBook\ Pro\ 16_\ -\ 2.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#block-5 q {
+  width: 500px;
+  margin-top: 38px;
+  border-bottom: 1px solid #d0d0d0;
+  padding: 24px;
+  position: relative;
+  color: grey;
+}
+#block-5 q::before {
+  content: "<";
+  position: absolute;
+  left: -64px;
+  top: -5%;
+  font-size: 96px;
+  font-weight: 300;
+  color: #d0d0d0;
+}
+#block-5 q::after {
+  content: ">";
+  position: absolute;
+  right: -64px;
+  top: -5%;
+  font-size: 96px;
+  font-weight: 300;
+  color: #d0d0d0;
+}
+#block-5 h1 {
+  font-weight: 400;
+  color: grey;
+}
+#block-5 p {
+  color: grey;
+}
+#block-6 {
+  background-color: #e0e0e080;
+  color: rgb(100, 100, 100);
+}
+.order-plan {
+  display: inline-block;
+  padding: 48px;
+}
+#order-block-2 {
+  border-left: 1px solid #d0d0d0;
+  border-right: 1px solid #d0d0d0;
+}
+#block-6 h1 {
+  margin-bottom: 80px;
+}
+.order-plan ul {
+  text-align: left;
+  height: 5em;
+  margin-bottom: 96px;
+}
+.order-plan button {
+  border-color: green;
+  color: green;
+}
+.order-plan > p:last-of-type {
+  font-size: 12px;
+  font-weight: 700;
+}
+.order-plan > p:first-of-type {
+  font-size: 24px;
+}
+footer span {
+  display: inline-block;
+}
+footer > span:last-child {
+  float: right;
+}
+footer {
+  padding: 32px 20%;
+}
+footer p {
+  margin: 0;
+  margin-bottom: 8px;
+  color: grey;
+}
